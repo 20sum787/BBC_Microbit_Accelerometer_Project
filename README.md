@@ -1,5 +1,7 @@
 # BBC_Microbit_Accelerometer_Project
 
-This repository contains old, un-vectorised (and rough) code from March of this year. 
-The self-written DFT was for the purpose of gaining a deeper understanding of my Maths coursework.
-I shortly plan to streamline this for a project involving using the accelerometer as a controller (using my existing Fourier transform to help with denoising, and investigating concepts like Kalman filters), but for now this repository is outdated
+Wrote a custom Discrete Fourier Transform (DFT) from first principles in MATLAB.
+
+To bridge my maths coursework with real signal processing, I oscillated the accelerometer of a BBC MicroBit at an approximately constant frequency. The results from my DFT and MATLAB's inbuilt one matched exactly. 
+
+Some possible extension of this include noise filtration for accelerometers with known/characterised vibration.
